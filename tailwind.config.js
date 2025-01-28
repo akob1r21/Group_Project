@@ -3,7 +3,7 @@ module.exports = {
   content: ["./SRC/**/*.{html,js}"],
   theme: {
      screens: {
-        'sm': '575px',
+        'xs': '300px',
         // => @media (min-width: 640px) { ... }
 
         'md': '767px',
