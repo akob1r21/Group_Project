@@ -7,8 +7,6 @@ module.exports = {
 
         'sm': '375px',
 
-       
-
         // => @media (min-width: 640px) { ... }
 
         'md': '767px',
@@ -27,6 +25,5 @@ module.exports = {
   },
   plugins: [],
 };
-
 
 
