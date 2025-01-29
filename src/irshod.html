@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Irshod</title>
     <link rel="stylesheet" href="./output.css">
 </head>
+
 <body>
     <header class="max-w-[1200px] m-auto p-[20px] flex items-center justify-between border-b-2 border-[#E3E3E3]">
         <img src="./images_irshod/logo_house7.png" alt="">
-        <div class="flex items-center gap-[30px]">
+        <div class="lg:flex items-center gap-[30px] hidden">
             <p>Наши проекты<select name="" id=""></select></p>
             <p>Дома<select name="" id=""></select></p>
             <p>Ипотека</p>
@@ -18,12 +20,345 @@
         </div>
 
         <div class="flex gap-[50px] items-center">
-            <div class="flex gap-[5px] items-center">
+            <div class="flex gap-[10px] items-center">
                 <img src="./images_irshod/iphone7.png" alt="">
-                <p>+7 (962) 555-25-25</p>
+                <p class="hidden lg:block ">+7 (962) 555-25-25</p>
+                <div class="flex lg:hidden">
+                    <img src="./images_irshod/burger7.png" alt="">
+                </div>
+
             </div>
-            <button class="py-[5px] px-[10px] border-2 border-[#EFA35A]">Заказать звонок</button>
+            <button class="py-[5px] px-[10px] border-2 border-[#EFA35A] hidden lg:block">Заказать звонок</button>
         </div>
     </header>
+
+    <section class="max-w-[1200px] m-auto p-[20px]">
+        <h1 class="text-[40px] p-[20px]">НАША <span class="text-[#EFA359]">КОМАНДА</span></h1>
+        <div class="p-[20px] lg:bg-[#EFA359] lg:text-white border-l-2 border-[#EFA359] lg:border-none">
+            <h2 class="text-[28px]">Win Dom — это люди, разделяющие красоту и комфорт загородной жизни.</h2>
+        </div>
+
+        <div class="flex items">
+            <div class="">
+                <div>
+                    <p class="text-[20px] lg:flex hidden">Наши менеджеры помогут разобраться, какой дом подойдет именно
+                        вам. Подберут технологию строительства и готовый типовой
+                        проект. Или разработают индивидуальное решение по вашему запросу.</p>
+                </div>
+                <div class="flex items-center lg:flex-row flex-col mb-[20px]">
+                    <div class="flex items-center p-[20px]">
+                        <img src="./images_irshod/Igor7.png" alt="">
+                        <div>
+                            <p class="text-[25px] p-[5px]">ИГОРЬ <br> ЗАХАРОВ</p>
+                            <button class="p-[20px] bg-[#EFA359] text-white text-[20px] text-start">Руководитель <br>
+                                проекта</button>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center p-[20px]">
+                        <img src="./images_irshod/Luiza.png" alt="">
+                        <div>
+                            <p class="text-[25px] p-[5px]">ЛУИЗА<br>НАЗИПОВА</p>
+                            <button class="p-[20px] bg-[#EFA359] text-white text-[20px] text-start">Главный <br>
+                                архитектор</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="block lg:hidden">
+                    <div class="flex items-center gap-[10px] text-[20px] mb-[10px]">
+                        <img src="./images_irshod/mob_pic1.png" alt="">
+                        <p>Наши менеджеры помогут разобраться, какой дом подойдет именно вам</p>
+                    </div>
+                    <div class="flex items-center gap-[10px] text-[20px] mb-[10px]">
+                        <img src="./images_irshod/mob_pic2.png" alt="">
+                        <p>Подберут технологию строительства и готовый типовой проект</p>
+                    </div>
+                    <div class="flex items-center gap-[10px] text-[20px] mb-[10px]">
+                        <img src="./images_irshod/mob_pic3.png" alt="">
+                        <p>Или разработают индивидуальное решение по вашему запросу</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:flex hidden">
+                <img src="./images_irshod/Car7.png" alt="" class="w-[600px]">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="max-w-[1200px] m-auto lg:flex block justify-between">
+        <div class="bg-[#EFA359] w-[10%] lg:block hidden"></div>
+
+        <div class="flex gap-[25px] mb-[40px] justify-center lg:justify-start">
+
+
+            <div class="">
+                <div class="relative ">
+                    <img src="./images_irshod/Anfisa7.png" alt="" class="w-[283px]">
+                    <div class="absolute text-center p-[15px] top-[340px] left-[50px] bg-white text-black">
+                        <p class="font-bold">Анфиса Давыдова</p>
+                        <p>Руководитель отдела</p>
+                        <p>маркетинга</p>
+                    </div>
+                    <div class="mt-[55px] flex justify-center gap-[20px]">
+                        <button class="bg-[#EFA359] text-white px-[20px] py-[5px]">Написать</button>
+                        <button class="border-2 border-[#EFA359] px-[20px] py-[5px]">Написать</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:block hidden">
+                <div class="relative">
+                    <img src="./images_irshod/evgeniy7.png" alt="" class="w-[283px]">
+                    <div class="absolute text-center p-[15px] top-[340px] left-[50px] bg-white text-black">
+                        <p class="font-bold">Евгений Кабаков</p>
+                        <p>Руководитель отдела</p>
+                        <p>продаж</p>
+                    </div>
+                    <div class="mt-[55px] flex justify-center gap-[20px]">
+                        <button class="bg-[#EFA359] text-white px-[20px] py-[5px]">Написать</button>
+                        <button class="border-2 border-[#EFA359] px-[20px] py-[5px]">Написать</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:block hidden">
+                <div class="relative">
+                    <img src="./images_irshod/Elvira7.png" alt="" class="w-[283px]">
+                    <div class="absolute text-center p-[15px] top-[340px] left-[50px] bg-white text-black">
+                        <p class="font-bold">Эльвира Сергеева</p>
+                        <p>Руководитель отдела</p>
+                        <p>ипотеки</p>
+                    </div>
+                    <div class="mt-[55px] flex justify-center gap-[20px]">
+                        <button class="bg-[#EFA359] text-white px-[20px] py-[5px]">Написать</button>
+                        <button class="border-2 border-[#EFA359] px-[20px] py-[5px]">Написать</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        <div class="bg-[#EFA359] w-[10%] lg:block hidden"></div>
+
+    </section>
+    
+    <section class="max-w-[1200px] m-auto lg:flex justify-between hidden">
+        <div class="bg-[#EFA359] w-[10%]"></div>
+    
+        <div class="flex gap-[25px]">
+    
+    
+            <div>
+                <div class="relative">
+                    <img src="./images_irshod/igor_mini_7.png" alt="" class="w-[283px]">
+                    <div class="absolute text-center p-[15px] top-[340px] left-[50px] bg-white text-black">
+                        <p class="font-bold">Игорь Смирнов</p>
+                        <p>Менеджер по</p>
+                        <p>сопровождению</p>
+                    </div>
+                    <div class="mt-[55px] flex justify-center gap-[20px]">
+                        <button class="bg-[#EFA359] text-white px-[20px] py-[5px]">Написать</button>
+                        <button class="border-2 border-[#EFA359] px-[20px] py-[5px]">Написать</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div>
+                <div class="relative mb-[50px]">
+                    <img src="./images_irshod/Ivan7.png" alt="" class="w-[283px]">
+                    <div class="absolute text-center p-[15px] top-[340px] left-[50px] bg-white text-black">
+                        <p class="font-bold">Иван Иванов</p>
+                        <p>Менеджер по</p>
+                        <p>сопровождению</p>
+                    </div>
+                    <div class="mt-[55px] flex justify-center gap-[20px]">
+                        <button class="bg-[#EFA359] text-white px-[20px] py-[5px]">Написать</button>
+                        <button class="border-2 border-[#EFA359] px-[20px] py-[5px]">Написать</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div>
+                <div class="relative">
+                    <img src="./images_irshod/Larisa7.png" alt="" class="w-[283px]">
+                    <div class="absolute text-center p-[15px] top-[340px] left-[50px] bg-white text-black">
+                        <p class="font-bold">Лариса Федотова</p>
+                        <p>Ведущий</p>
+                        <p>Юрисконсульт</p>
+                    </div>
+                    <div class="mt-[55px] flex justify-center gap-[20px]">
+                        <button class="bg-[#EFA359] text-white px-[20px] py-[5px]">Написать</button>
+                        <button class="border-2 border-[#EFA359] px-[20px] py-[5px]">Написать</button>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    
+    
+    
+        <div class="bg-[#EFA359] w-[10%]"></div>
+    
+    </section>
+    <section class="max-w-[1200px] m-auto lg:flex mb-[50px] justify-between hidden">
+        <div class="bg-[#EFA359] w-[10%]"></div>
+    
+        <div class="flex gap-[25px]">
+    
+    
+            <div>
+                <div class="relative">
+                    <img src="./images_irshod/Alexey7.png" alt="" class="w-[283px]">
+                    <div class="absolute text-center p-[15px] top-[340px] left-[50px] bg-white text-black">
+                        <p class="font-bold">Алексей</p>
+                        <p>Начальник участка</p>
+                    </div>
+                    <div class="mt-[55px] flex justify-center gap-[20px]">
+                        <button class="bg-[#EFA359] text-white px-[20px] py-[5px]">Написать</button>
+                        <button class="border-2 border-[#EFA359] px-[20px] py-[5px]">Написать</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div>
+                <div class="relative">
+                    <img src="./images_irshod/Nikolay7.png" alt="" class="w-[283px]">
+                    <div class="absolute text-center p-[15px] top-[340px] left-[50px] bg-white text-black">
+                        <p class="font-bold">Николай Елистратов</p>
+                        <p>Прораб</p>
+                    </div>
+                    <div class="mt-[55px] flex justify-center gap-[20px]">
+                        <button class="bg-[#EFA359] text-white px-[20px] py-[5px]">Написать</button>
+                        <button class="border-2 border-[#EFA359] px-[20px] py-[5px]">Написать</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div>
+                <div class="relative">
+                    <img src="./images_irshod/Fanil7.png" alt="" class="w-[283px]">
+                    <div class="absolute text-center p-[15px] top-[340px] left-[50px] bg-white text-black">
+                        <p class="font-bold">Фаниль Саляхиев</p>
+                        <p>Прораб</p>
+                    </div>
+                    <div class="mt-[55px] flex justify-center gap-[20px]">
+                        <button class="bg-[#EFA359] text-white px-[20px] py-[5px]">Написать</button>
+                        <button class="border-2 border-[#EFA359] px-[20px] py-[5px]">Написать</button>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    
+    
+    
+        <div class="bg-[#EFA359] w-[10%]"></div>
+    
+    </section>
+
+    <section class="max-w-[1200px] m-auto p-[20px]">
+            
+        <div class="flex items">
+            <div class="lg:flex hidden px-[20px]">
+                <img src="./images_irshod/mansion7.png" alt="" class="w-[600px]">
+            </div>
+            <div class="">
+                <div>
+                    <p class="text-[20px] lg:flex hidden">Наши менеджеры помогут разобраться, какой дом подойдет именно
+                        вам. Подберут технологию строительства и готовый типовой
+                        проект. Или разработают индивидуальное решение по вашему запросу.</p>
+                </div>
+                <div class="flex items-center lg:flex-row flex-col mb-[20px]">
+                    <div class="flex items-center p-[20px]">
+                        <img src="./images_irshod/Rasul7.png" alt="">
+                        <div>
+                            <p class="text-[25px] p-[5px]">РАСУЛ<br>МУХАРЯМОВ</p>
+                            <button class="p-[20px] bg-[#EFA359] text-white text-[20px] text-start">Заместитель <br>
+                                руководителя<br>проекта</button>  
+                        </div>
+                    </div>
+    
+                    <div class="flex items-center p-[20px]">
+                        <img src="./images_irshod/Dmitriy.png" alt="">
+                        <div>
+                            <p class="text-[25px] p-[5px]">ДМИТРИЙ<br>ВАГАНОВ</p>
+                            <button class="p-[20px] bg-[#EFA359] text-white text-[20px] text-start">Заместитель <br>
+                            руководителя<br>проекта</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="block lg:hidden">
+                    <div class="flex items-center gap-[10px] text-[20px] mb-[10px]">
+                        <img src="./images_irshod/mob_pic1.png" alt="">
+                        <p>Наши менеджеры помогут разобраться, какой дом подойдет именно вам</p>
+                    </div>
+                    <div class="flex items-center gap-[10px] text-[20px] mb-[10px]">
+                        <img src="./images_irshod/mob_pic2.png" alt="">
+                        <p>Подберут технологию строительства и готовый типовой проект</p>
+                    </div>
+                    <div class="flex items-center gap-[10px] text-[20px] mb-[10px]">
+                        <img src="./images_irshod/mob_pic3.png" alt="">
+                        <p>Или разработают индивидуальное решение по вашему запросу</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex items-center gap-[10px] p-[20px]">
+            <img src="./images_irshod/chevor7.png" alt="">
+            <p class="text-[#EFA359] font-bold">На Главную</p>
+            
+        </div>
+    </section>
+
+    <section class="max-w-[1200px] m-auto p-[40px] text-white bg-black flex items-start lg:justify-between justify-center">
+        <div class="lg:flex items-start gap-[150px] leading-[40px] hidden">
+            <div>
+                <h2 class="border-b-2 border-[#EFA35A] text-[20px]">О КОМПАНИИ</h2>
+                <p>Главная</p>
+                <p>Наша команда</p>
+                <p>СМИ о нас</p>
+                <p>Отзывы</p>
+                <p>Новости</p>
+                <p>Контакты</p>
+            </div>
+            
+            <div>
+                <h2 class="border-b-2 border-[#EFA35A] text-[20px]">ПРОЕКТЫ</h2>
+                <p>Изумрудный Village</p>
+                <p>Зимняя горка</p>
+                <p>Константиновка</p>
+                <p>Усады Village</p>
+                <p>IQ-CLUB</p>
+            </div>
+            
+            <div>
+                <h2 class="border-b-2 border-[#EFA35A] text-[20px]">ИПОТЕКА</h2>
+                <p>Ипотечные кредиты</p>
+                <p>Для семей с детьми</p>
+                <p>Военная ипотека</p>
+                <p>Господдержка 2023</p>
+            </div>
+        </div>
+        <div class="">
+            <div>
+                <img src="./images_irshod/logo_house_footer7.png" alt="" class="mb-[20px]">
+                <div class="flex items-center gap-[10px] mb-[20px]">
+                    <img src="./images_irshod/youtube7.png" alt="">
+                    <img src="./images_irshod/vk7.png" alt="">
+                    <img src="./images_irshod/linkedin7.png" alt="">
+                    <img src="./images_irshod/telega7.png" alt="">
+                </div>
+            </div>
+            
+            <div class="flex items-center">
+                <img src="./images_irshod/mail7.png" alt="">
+                <p>windom.kazan@gmail.com</p>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
