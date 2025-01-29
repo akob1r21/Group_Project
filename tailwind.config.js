@@ -7,8 +7,6 @@ module.exports = {
 
         'sm': '375px',
 
-        'xs': '300px',
-
         // => @media (min-width: 640px) { ... }
 
         'md': '767px',
@@ -28,10 +26,4 @@ module.exports = {
   plugins: [],
 };
 
-   content: ["./src/**/*.{html,js}"],
-   theme: {
-     extend: {},
-   },
-   plugins: [],
- }
 
