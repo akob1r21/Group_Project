@@ -2,3 +2,8 @@
     background-image: url(./imgs_page_9/Rectangle\ 37.png);
     height: 100vh;
 }
+.txt-sec1{
+    position: relative;
+    top:450px;
+    left: 200px;
+}
