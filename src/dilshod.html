@@ -3,9 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
     <title>Dilshod</title>
   </head>
   <body>
-    
+    <!-- header menu nav -->
+    <header
+      class="flex justify-between p-[16px] border-b-2 border-gray-70 max-w-[1280px] m-auto"
+    >
+      <img src="./image-dilshod/windom_logo.png" alt="" />
+      <div class="hidden lg:flex lg:items-center lg:gap-7 lg:text-[16px]">
+        <select name="" id="">
+          <option value="Наши проекты">Наши проекты</option>
+        </select>
+        <select name="" id="">
+          <option value="Наши проекты">Дома</option>
+        </select>
+        <a href="#">Ипотека</a>
+        <select name="" id="">
+          <option value="Наши проекты">О компании</option>
+        </select>
+        <a href="#">Контакты</a>
+      </div>
+      <div class="flex gap-[40px]">
+        <p class="flex items-center gap-3">
+          <img src="./image-dilshod/ph_phone-icon.png" alt="" />
+          <img
+            src="./image-dilshod/iconamoon_menu-burger-horizontal-light.png"
+            alt=""
+            class="lg:hidden"
+          />
+
+          <span class="hidden lg:block"> +7 (962) 555-25-25</span>
+        </p>
+        <button class="hidden border-2 border-[#EFA35A] px-[30px] lg:block">
+          Заказать звонок
+        </button>
+      </div>
+    </header>
+
+    <!-- all main component -->
+    <main class="p-[16px] max-w-[1280px] m-auto">
+      <section class="flex flex-col gap-[30px]">
+        <h1 class="font-[500] text-[30px] lg:text-[60px]"><span class="text-[#EFA359]">СМИ</span>О НАС</h1>
+        <div class="flex justify-between">
+          <p class="flex gap-3"><img src="./image-dilshod/formkit_left-icon.png" alt=""> Назад к СМИ</p>
+          <h2 class="text-[15px] text-[#EFA359] uppercase"><span>Другие </span>новости</h2>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
